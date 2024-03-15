@@ -3,4 +3,4 @@ function toFahrenheit(celsius) {
 }
 
 const celsius = prompt("Enter Celsius:");
-alert(toFahrenheit(Number(celsius)));
+alert(toFahrenheit(Number(celsius)).toFixed(2));
